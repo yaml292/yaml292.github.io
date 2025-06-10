@@ -6,16 +6,16 @@
           <ProfileAvatar :src="profileImage" :alt="name" :size="avatarSize" />
 
           <div class="flex flex-col text-center sm:text-left">
-            <h3 class="font-bold text-lg">{{ name }}</h3>
-            <span v-if="title" class="text-sm opacity-80">{{ title }}</span>
+            <h3 class="font-bold text-lg prose">{{ name }}</h3>
+            <span v-if="title" class="text-sm opacity-80 prose">{{ title }}</span>
 
-            <p v-if="bio" class="mt-2 text-sm">{{ bio }}</p>
+            <p v-if="bio" class="mt-2 text-sm prose">{{ bio }}</p>
 
             <slot name="additional-info"></slot>
 
             <div
               v-if="socialLinks && socialLinks.length"
-              class="flex gap-3 mt-4 justify-center sm:justify-start"
+              class="flex flex-wrap gap-3 mt-4 justify-center sm:justify-start"
             >
               <a
                 v-for="(link, index) in socialLinks"
