@@ -48,7 +48,9 @@ const DiscordIcon = createSvgComponent(siDiscord)
       ]"
     >
       <template #additional-info>
-        <div class="flex items-center justify-center sm:justify-start text-sm opacity-60 mt-4">
+        <div
+          class="flex items-center justify-center sm:justify-start text-sm opacity-80 mt-4 prose"
+        >
           <MapPin class="w-4 h-4 mr-1" />
           <span>Switzerland</span>
         </div>
