@@ -1,35 +1,41 @@
-# yaml292-portfolio
+# yaml292's Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Vue 3](https://img.shields.io/badge/Vue-v3-42b883.svg)](https://vuejs.org)
+[![Vite](https://img.shields.io/badge/Vite-v6-646cff.svg)](https://vite.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8.svg)](https://tailwindcss.com)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%E2%89%A520.19-brightgreen.svg)](https://nodejs.org)
 
-## Recommended IDE Setup
+> A modern, minimalist personal portfolio website built with Vue 3 and Vite.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Quick Start
 
-## Customize configuration
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Available Scripts
 
-## Project Setup
-
-```sh
-npm install
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Lint and fix code
+npm run format   # Format code with Prettier
 ```
 
-### Compile and Hot-Reload for Development
+## License
 
-```sh
-npm run dev
-```
+This project is licensed under the [MIT License](./LICENSE).
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+<div align="center">
+  Made with ❤️ by <a href="https://github.com/yaml292">yaml292</a>
+</div>
